@@ -45,7 +45,7 @@ def help_command(update, context):
                                                                     "/password - сгенерировать новый пароль")
 
 def main():
-    updater = Updater(token='', use_context=True)
+    updater = Updater(token='6347972811:AAHAh0YWeCbDh6J-_VTpC0tNmtb6XkWPBEM', use_context=True)
     dispatcher = updater.dispatcher
 
     start_handler = CommandHandler('start', start)
